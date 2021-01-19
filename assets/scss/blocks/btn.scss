@@ -1,0 +1,25 @@
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.1;
+
+  padding: 1.12em 2.1em;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: inherit;
+
+  border: none;
+  border-radius: 25%;
+
+  transition: background-color .2s linear;
+  color: $white;
+
+  &--red {
+    @include btn($red, darken($red, 15%), 0 7px 17px -10px rgba($red, .2), none);
+  }
+
+  &--blue {
+    @include btn($blue, darken($blue, 15%), 0 7px 17px -10px rgba($blue, .2), none)
+  }
+}

@@ -1,0 +1,9 @@
+@mixin btn ($bg, $bg_hover, $box-shadow, $text-decoration) {
+  background-color: $bg;
+  box-shadow: $box-shadow;
+  text-decoration: $text-decoration;
+
+  &:hover {
+    background-color: $bg_hover;
+  }
+}

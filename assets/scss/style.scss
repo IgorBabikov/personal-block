@@ -1,5 +1,7 @@
 @import "vars";
+@import "mixins";
 @import "vendor/reset";
+
 
 
 html {
@@ -12,7 +14,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.5;
 
-    color: $black;
+    color: $white;
 }
 
 *,
@@ -22,14 +24,6 @@ body {
 }
 
 
-
-a {
-    text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
 
 /* Bootstrap */
 
@@ -41,3 +35,6 @@ a {
 @import "blocks/sidebar";
 @import "blocks/container";
 @import "blocks/content";
+@import "blocks/profile";
+@import "blocks/social";
+@import "blocks/btn";
