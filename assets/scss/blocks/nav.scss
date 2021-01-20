@@ -1,0 +1,22 @@
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  display: block;
+  padding: 1rem;
+
+  font-size: 1.1rem;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background-color .2s linear;
+
+  color: $white;
+
+  &:hover {
+    text-decoration: underline;
+    background-color: $blue;
+  }
+}
