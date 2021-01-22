@@ -3,6 +3,7 @@ layout: default
 title: IgorBabikov | Home
 ---
 
+<!-- stories -->
 <div class="stories">
   <div class="stories__item">
     <img class="stories__img" src="assets/images/stories/stories-1.jpg" alt="">
@@ -30,5 +31,21 @@ title: IgorBabikov | Home
     <time class="stories__date" datetime="2020-28-08 11:20">28.08.2020</time>
   </div>
 </div>
+<!--//stories-->
 
-<form action=""></form>
+
+<!-- add post -->
+<div class="add__post">
+  <form class="add__post-form" action="/" method="POST">
+    <textarea class="add__post-text" placeholder="Напишите что-нибудь"></textarea>
+
+    <div class="add__post-action">
+      <label class="add__post-label" for="add-post-file">
+        <input class="input" type="file" id="add-post-file">
+      </label>
+
+      <button class="add__post-btn" type="submit"><img src="assets/images/button/send.svg" alt="Отправить"></button>
+    </div>
+  </form>
+</div>
+<!--//add__post-->
