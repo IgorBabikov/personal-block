@@ -1,0 +1,26 @@
+.post {
+  background-color: #141111;
+
+  padding: 2.5rem 2.8rem;
+  margin-bottom: 3rem;
+
+  box-shadow: 0 15px 25px rgba($black, .35);
+  border-radius: 5px;
+}
+
+.post__content {
+  margin-bottom: 2rem;
+}
+
+.post__text {
+
+  color: $light-gray;
+}
+
+.post__data-link {
+  display: block;
+  font-size: 1.2rem;
+  color: #828282;
+
+  text-decoration: none;
+}
