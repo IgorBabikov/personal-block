@@ -1,0 +1,27 @@
+.post__actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  color: $white;
+
+  a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    
+    color: inherit;
+    opacity: .6;
+
+    transition: opacity .2s linear;
+
+    &:hover {
+      text-decoration: underline;
+      
+      opacity: 1;
+    }
+  }
+}
+
+.post__actions-icon {
+  margin-left: 1rem;
+
+}
