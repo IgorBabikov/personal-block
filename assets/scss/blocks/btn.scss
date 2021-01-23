@@ -23,13 +23,11 @@
     @include btn($blue, darken($blue, 15%), 0 7px 17px -10px rgba($blue, .2), none)
   }
 
-  &--sm {
-    width: 9rem;
-    height: 3rem;
-    margin: 1.2rem 0 5rem;
+  &--rounded {
+    border-radius: .42em;
+  }
 
-    border-radius: 5px;
-    display: block;
-    padding: 0
+  &--sm {
+    padding: .66em 1.25em;
   }
 }
