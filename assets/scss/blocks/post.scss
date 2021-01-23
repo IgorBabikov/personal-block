@@ -40,11 +40,6 @@
 
   a {
     color: inherit;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   &--mb0 {
@@ -58,8 +53,11 @@
 }
 
 .post__text {
+  padding-bottom: 3rem;
   color: $white;
   font-size: 1.4rem;
+
+  border-bottom: 1px solid #1C1C1C;
 
   h1,
   h2,
@@ -109,12 +107,7 @@
   a {
     display: block;
     margin-bottom: 2rem;
-    text-decoration: none;
     color: $blue;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   table {
@@ -126,39 +119,42 @@
     margin-bottom: 2rem;
   }
 
-  
+
   .fr-video {
     display: block;
     position: relative;
     overflow: hidden;
-  
+
     &::before {
       content: "";
       display: block;
-  
+
       padding-top: 56.25%;
     }
-  
+
     iframe,
     video,
     object,
     embed {
       width: 100%;
       height: 100%;
-  
+
       position: absolute;
       top: 0;
       left: 0;
       z-index: 1;
     }
   }
-
 }
 
 .post__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  a {
+    color: #107EFF;
+  }
 }
 
 
@@ -171,11 +167,6 @@
 
   a {
     color: inherit;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 }
 
@@ -197,11 +188,27 @@
 }
 
 
-.post__read {
-  text-decoration: none;
-  color: #107EFF;
+.post__actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  color: $white;
 
-  &:hover {
-    text-decoration: underline;
+  a {
+    font-size: 1.2rem;
+
+    color: inherit;
+    opacity: .6;
+
+    transition: opacity .2s linear;
+
+    &:hover {
+      opacity: 1;
+    }
   }
+}
+
+.post__actions-icon {
+  margin-left: 1rem;
+
 }

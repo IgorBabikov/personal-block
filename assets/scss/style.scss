@@ -24,7 +24,15 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    display: block;
+    text-decoration: none;
+    color: $white;
 
+    &:hover {
+        text-decoration: underline;
+    }
+}
 
 
 /* Bootstrap */
@@ -48,7 +56,8 @@ body {
 @import "blocks/post";
 @import "blocks/embed";
 @import "blocks/pagination";
-@import "blocks/textpage";
+@import "blocks/related-post";
+@import "blocks/comments";
 
 
 
