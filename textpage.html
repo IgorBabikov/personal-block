@@ -50,12 +50,12 @@ title: TextPage
 
     <!-- related post -->
     <div class="related">
-      <h2 class="related__title  title">Интересно почитать</h2>
+      <h2 class="post__subtitle">Интересно почитать</h2>
 
       <ul class="related__list">
         <li class="related__list-item">
           <h4 class="related__list-title">
-            <a class="related__list-link" href="#">Как я сходил на FrontEnd Conf 2021aaaaaaaaaaaaaaaaaaa</a>
+            <a class="related__list-link" href="#">Как я сходил на FrontEnd Conf 2020 and i liked it very much</a>
           </h4>
 
           <time class="related__list-date" datetime="2020-06-21 19:20">21.06.2020</time>
@@ -63,7 +63,7 @@ title: TextPage
 
         <li class="related__list-item">
           <h4 class="related__list-title">
-            <a class="related__list-link" href="#">Как писать код быстро и ...</a>
+            <a class="related__list-link" href="#">Как писать код быстро и</a>
           </h4>
 
           <time class="related__list-date" datetime="2020-06-21 19:20">21.06.2020</time>
@@ -71,7 +71,7 @@ title: TextPage
 
         <li class="related__list-item">
           <h4 class="related__list-title">
-            <a class="related__list-link" href="#">Как я сходил на FrontEnd Conf 2021</a>
+            <a class="related__list-link" href="#">Как я сходил на FrontEnd Conf 2020</a>
           </h4>
 
           <time class="related__list-date" datetime="2020-06-21 19:20">21.06.2020</time>
@@ -90,22 +90,64 @@ title: TextPage
     <!--//related-->
 
 
-    <!-- post comments -->
+    <!--comments -->
     <div class="comments">
-      <div class="comments__title  title">Обсуждение</div>
+      <div class="post__subtitle">Обсуждение</div>
       <form class="form" action="/" method="POST">
         <div class="form__group">
-          <textarea class="form__control  form__control--textarea" name="form-text" placeholder="Текст комментария"></textarea>
+          <textarea class="form__control  form__control--textarea" name="form-text"
+            placeholder="Текст комментария"></textarea>
 
           <span class="form__line"></span>
         </div>
-      </form>
 
-      <button class="btn  btn--blue  btn--rounded  btn--sm" type="submit">Отправить</button>
+        <button class="btn  btn--blue  btn--rounded  btn--sm" type="submit">Отправить</button>
     </div>
-    <!--//post__comments-->
+    <!--//comments-->
+    </form>
 
+    <ul class="comments">
+      <li class="comments__item">
+        <div class="comments__header">
 
+          <img class=" comments__avatar" src="https://placehold.it/30" alt="">
+
+          <div class="comments__author">
+            <div class="comments__name">Игорь Бабиков</div>
+            <time class="comments__date" datetime="2020-06-14">1 неделю назад</time>
+          </div>
+        </div>
+
+        <div class="comments__text">
+          Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas.
+          Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+        </div>
+
+        <button class="comments__reply" type="submit">Ответить</button>
+
+        <!-- child comments -->
+        <ul class="comments">
+          <li class="comments__item">
+            <div class="comments__header">
+              <img class="comments__avatar" src="https://placehold.it/30" alt="">
+
+              <div class="comments__author">
+                <div class="comments__name">Светлана Бабикова</div>
+                <time class="comments__date" datetime="2020-06-14">1 неделю назад</time>
+              </div>
+            </div>
+
+            <div class="comments__text">
+              Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas.
+              Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel
+              volutpat.
+            </div>
+
+            <button class="comments__reply" type="submit">Ответить</button>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
   <!--//post__content-->
 </article><!-- /.post -->
