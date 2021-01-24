@@ -8,3 +8,12 @@
   }
 }
 
+
+@mixin block($mb, $bg-c, $b-sh, $b-r) {
+  margin-bottom: $mb;
+
+  background-color: $bg-c;
+  box-shadow: $b-sh;
+
+  border-radius: $b-r;
+}
