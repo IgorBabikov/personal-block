@@ -37,7 +37,8 @@
   display: flex;
   justify-content: space-between;
   width: 20%;
-}
+  }
+
 
 .add__post-label,
 .add__post-btn {
@@ -53,6 +54,7 @@
 
 
 .add__post-label {
+
   .input {
     display: none;
   }

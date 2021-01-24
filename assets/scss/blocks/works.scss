@@ -8,14 +8,14 @@
 .works__content {
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 30rem;
+  max-width: 30rem;
   flex-direction: column;
 
   padding: 2.5rem;
 }
 
 .work__preview {
-  flex: 1 1 30rem;
+  max-width: 30rem;
 
   img {
     display: block;
