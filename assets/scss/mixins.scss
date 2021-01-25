@@ -3,7 +3,8 @@
   box-shadow: $box-shadow;
   text-decoration: $text-decoration;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $bg_hover;
   }
 }

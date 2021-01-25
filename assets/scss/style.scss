@@ -16,6 +16,10 @@ body {
 
     color: $white;
     background-color: #181818;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
 }
 
 *,
@@ -63,5 +67,6 @@ a {
 @import "blocks/tags";
 @import "blocks/cabinet";
 @import "blocks/signup";
+@import "blocks/modal";
 
 
