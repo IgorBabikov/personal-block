@@ -1,5 +1,9 @@
 .nav__list {
   display: flex;
+
+  @include breakpoint($tablet--bp) {
+    display: none;
+  }
 }
 
 .nav__item {

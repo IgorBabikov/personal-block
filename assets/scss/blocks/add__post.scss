@@ -17,7 +17,7 @@
 
 .add__post-text {
   display: block;
-  width: 80%;
+  flex: 1 0 auto;
   font-family: inherit;
   font-size: 1.5rem;
 
@@ -36,8 +36,8 @@
 .add__post-action {
   display: flex;
   justify-content: space-between;
-  width: 20%;
-  }
+  flex: 0 0 12rem;
+}
 
 
 .add__post-label,

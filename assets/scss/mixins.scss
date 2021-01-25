@@ -18,3 +18,10 @@
 
   border-radius: $b-r;
 }
+
+
+@mixin breakpoint($bp) {
+  @media (max-width: $bp) {
+    @content;
+  }
+}

@@ -18,7 +18,7 @@ body {
     background-color: #181818;
 
     &.no-scroll {
-        // overflow: hidden;
+        overflow: hidden;
     }
 }
 
@@ -68,5 +68,6 @@ a {
 @import "blocks/cabinet";
 @import "blocks/signup";
 @import "blocks/modal";
+@import "blocks/burger";
 
 
