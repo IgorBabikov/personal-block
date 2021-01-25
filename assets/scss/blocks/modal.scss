@@ -18,10 +18,14 @@
   position: relative;
   max-width: 50rem;
   width: 100%;
-  padding: 5rem 8rem 2.5rem;
+  padding: 8rem;
 
   background-color: $gray;
   border-radius: 5px;
+
+  &--contact {
+    padding-bottom: 2.5rem;
+  }
 }
 
 .form__footer {
@@ -52,7 +56,7 @@
   justify-content: center;
   font-size: 1.2rem;
   color: #B2B2B2;
-  margin-top: 3rem;
+
 
   li {
     margin: 0 .7rem;
@@ -61,4 +65,10 @@
   a {
     color: inherit;
   }
+}
+
+.social__icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 0 2rem;
 }

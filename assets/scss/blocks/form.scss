@@ -1,3 +1,7 @@
+.form {
+  margin-bottom: 2rem;
+}
+
 .form__control {
   display: block;
   font-family: inherit;
@@ -25,7 +29,7 @@
     overflow: hidden;
   }
 
-  &:focus + .form__line {
+  &:focus+.form__line {
     width: 100%;
   }
 }
@@ -38,7 +42,7 @@
     margin-bottom: 2.5rem;
   }
 
-} 
+}
 
 .form__line {
   width: 0;
