@@ -3,6 +3,10 @@
 
   display: flex;
   overflow: hidden;
+
+  @include breakpoint($mobile--bp) {
+    flex-direction: column;
+  }
 }
 
 .works__content {
@@ -12,6 +16,12 @@
   flex-direction: column;
 
   padding: 2.5rem;
+
+  @include breakpoint($mobile--bp) {
+    max-width: none;
+    padding: 1.5rem;
+  }
+
 }
 
 .work__preview {
@@ -23,19 +33,29 @@
     height: 100%;
     object-fit: cover;
   }
+
+  @include breakpoint($mobile--bp) {
+    max-width: none;
+    height: 20rem;
+  }
 }
 
 .work__title {
   font-size: 2.4rem;
   font-weight: 500;
+
+  margin-bottom: 3rem;
+
+  @include breakpoint($mobile--bp) {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .works__description {
-  margin: 3rem 0;
-
   font-size: 1.6;
   line-height: 1.6;
   font-weight: 300;
+  margin-bottom: 3rem;
 
   color: $light-gray;
 }
@@ -43,4 +63,8 @@
 .works__footer {
   margin-top: auto;
   text-align: right;
+
+  @include breakpoint($mobile--bp) {
+    text-align: left;
+  }
 }

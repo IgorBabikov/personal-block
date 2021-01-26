@@ -5,9 +5,13 @@
 .comments__item {
   margin-bottom: 3rem;
 
-  > .comments {
+  >.comments {
     padding-left: 3rem;
     margin-top: 3rem;
+
+    @include breakpoint($mobile--bp) {
+      margin-top: 1.5rem;
+    }
   }
 }
 

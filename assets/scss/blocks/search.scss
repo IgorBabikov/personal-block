@@ -20,4 +20,10 @@
   &::placeholder {
     color: rgba($white, .4);
   }
+
+  @include breakpoint($tablet--bp) {
+    height: 4rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
 }
