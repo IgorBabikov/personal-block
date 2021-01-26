@@ -55,7 +55,7 @@
     }
   }
 
-  &.active {
+  .show-sidebar & {
     span {
      opacity: 0;
     }
