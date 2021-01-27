@@ -1,1 +1,0 @@
-//= components/slick.js
